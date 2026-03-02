@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ficha de Postulación</title>
+</head>
+<body>
+
+    <a href="index.html" style="text-decoration: none; color: #333; font-size: 14px;">← Volver a ofertas</a>
+
+    <h1>Ficha de Postulación</h1>
+    <p><strong>Puesto:</strong> Frontend Developer Trainee</p>
+
+    <hr>
+
+    <form>
+
+        <fieldset style="border-color: black;">
+            <legend><strong>Datos Personales</strong></legend>
+
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre aquí"><br><br>
+
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com"><br><br>
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="+51 999 999 999"><br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset style="border-color: black;">
+            <legend><strong>Perfil Técnico</strong></legend>
+
+            <label for="github">Link de GitHub:</label><br>
+            <input type="url" id="github" name="github" placeholder="https://github.com/usuario"><br><br>
+
+            <label for="ingles">Nivel de Inglés:</label><br>
+            <select id="ingles" name="ingles">
+                <option value="basico">Básico</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="avanzado">Avanzado</option>
+            </select><br><br>
+
+            <p><strong>Tecnologías (Marca las que sepas):</strong></p>
+
+            <input type="checkbox" id="html5" name="tecnologias" value="HTML5">
+            <label for="html5">HTML5</label><br>
+
+            <input type="checkbox" id="css3" name="tecnologias" value="CSS3">
+            <label for="css3">CSS3</label><br>
+
+            <input type="checkbox" id="js" name="tecnologias" value="JavaScript">
+            <label for="js">JavaScript</label><br>
+
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Enviar Postulación">
+
+    </form>
+
+</body>
+</html>
